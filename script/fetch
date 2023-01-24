@@ -1,0 +1,3 @@
+echo fetching $1/data.xml
+curl $1/data.xml -o downloaded.xml
+xmllint --noout --schema caselaw.xsd --schema xml.xsd --schema akn-modified.xsd downloaded.xml

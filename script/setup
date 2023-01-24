@@ -1,0 +1,3 @@
+curl https://raw.githubusercontent.com/nationalarchives/ds-caselaw-marklogic/main/src/main/ml-schemas/caselaw.xsd -o caselaw.xsd
+curl https://raw.githubusercontent.com/nationalarchives/ds-caselaw-marklogic/main/src/main/ml-schemas/xml.xsd -o xml.xsd
+curl https://raw.githubusercontent.com/nationalarchives/ds-caselaw-marklogic/main/src/main/ml-schemas/akn-modified.xsd -o akn-modified.xsd

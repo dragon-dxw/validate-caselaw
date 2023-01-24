@@ -1,0 +1,2 @@
+FILENAME=${1:-downloaded.xml}
+xmllint --noout --schema caselaw.xsd --schema xml.xsd --schema akn-modified.xsd $FILENAME
