@@ -1,0 +1,14 @@
+repos:
+- repo: https://github.com/comkieffer/pre-commit-xmllint.git
+  rev: 1.0.0
+  hooks:
+  - id: xmllint
+    args: [
+      --schema,
+      caselaw.xsd,
+      --schema,
+      xml.xsd,
+      --schema,
+      akn-modified.xsd,
+      downloaded.xml
+    ]
